@@ -1,0 +1,562 @@
+/* Classes */
+.paragraph{
+    background-color: brown;
+    color: rgb(68, 3, 3);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(75, 0, 0);
+    font-size: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* ID */
+#exclusive-title{
+    color: rgb(3, 68, 41);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 255, 136);
+    font-size: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* Ordem das regras */
+#borda_verde{
+    -webkit-text-stroke-color: rgb(0, 168, 50);
+    -webkit-text-stroke-width: 3px;
+    font-size: 70px;
+}
+.borda_vermelha{
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 3px;
+    font-size: 60px;
+}
+h2{
+    -webkit-text-stroke-color: rgb(47, 0, 255);
+    -webkit-text-stroke-width: 3px;
+    font-size: 50px;
+}
+/* Nome de cores */
+.colorname{
+    color: aquamarine
+}
+/* Cores Hexadecimais */
+.hex{
+    color: #be0404
+}
+/* Hex simplificado (podemos adicionar só 3 caracteres ao inves de 6 se eles se repetirem, ex: 112233 -> 123   000000 -> 000   118899 -> 189   FFBBCC -> FBC  */
+.hex-s{
+    color: #189
+}
+.hexsimples{
+    color: #FBC
+}
+.rexona{
+    color: #527
+}
+/* RGB */
+.rgb{
+    color: rgb(168, 0, 112)
+}
+/* RGBa */
+.rgba{
+    color: rgba(168, 0, 112, 0.3)
+}
+/* HSL */
+.hsl{
+    color: hsl(200, 60%, 30%)
+}
+.hsl2{
+    color: hsl(150, 70%, 35%)
+/* Background color */
+}
+.bgc{
+    background-color: #189;
+}
+/* Background opacity */
+.bgo{
+    background-color: rgba(5, 171, 197, 0.4);
+    /* mudando somente a opacidade da cor de fundo */
+}
+.bgo2{
+    background-color: #189;
+    opacity: 0.2
+    /* mudando a opacidade da cor de fundo e a letra */
+}
+.bgimg{
+    background-image: url(../img/nhenhenhe.png);
+    color: #000000;
+    -webkit-text-stroke-color: #be0404;
+    -webkit-text-stroke-width: 2px;
+    padding: 30px
+}
+/* adicionando CSS em duas classes ao mesmo tempo */
+.bgimagecenter, .notcentered{
+    height:1000px;
+    width:1000px;
+    background-image: url(../img/Bob_Esponja_maconheiro.png);
+}
+/* Centralizando uma background image */
+.bgimagecenter{
+    background-size: cover;
+    color: rgb(101, 199, 150);
+    font-size: 100px;
+}
+/* Altura e largura */
+.heightwidth{
+    height: 500px;
+    width: 350px;
+    background-color: #be0404;
+    text-align: center;
+}
+.heightwidth2{
+    height:700px;
+    width: 900px;
+    background-color: #008b56;
+    text-align: center;
+}
+/* Padding */
+.padding{
+    background-color: #940000;
+    height: 800px;
+    width:500px;
+    padding: 100px;
+    font-size: 50px;
+}
+.nopadding{
+    background-color: #009463;
+    height: 800px;
+    width: 500px;
+    font-size: 35px;
+}
+/* Padding individual */
+.paddingindividual{
+    background-color:rgb(166, 132, 189);
+    color:#527;
+    font-size: 20px;
+    height: 120px;
+    width:500px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+/* Shorthand Properties (top, right, bottom, left)*/
+.shorthand{
+    background-color:rgb(132, 161, 189);
+    color:rgb(16, 75, 102);
+    font-size: 60px;
+    height: 800px;
+    width:650px;
+    padding: 50px 30px 30px 40px;
+}
+/* Shorthand top-bottom, left-right */
+.veryshorthand{
+    background-color:rgb(132, 189, 162);
+    color:rgb(16, 102, 55);
+    font-size: 60px;
+    height: 800px;
+    width:650px;
+    padding: 40px 20px;
+    /* 40 px -> top and bottom; 20px -> left and right. */
+}
+/* Borderbox (padding com width) */
+.borderbox{
+    box-sizing: border-box;
+    background-color: rgb(109, 178, 189);
+    color: #238186;
+    height: 900px;
+    width:650px;
+    font-size: 60px;
+    padding: 50px;
+    border: solid rgb(0, 100, 131) 10px;
+}
+.noborderbox{
+    background-color: rgb(121, 109, 189);
+    color: rgb(37, 0, 78);
+    height: 800px;
+    width:650px;
+    font-size: 60px;
+    padding: 50px;
+}
+/* Border */
+.border{
+    margin: auto;
+    box-sizing: border-box;
+    border: double rgb(0, 100, 131) 10px;
+    height: 200px;
+    width:500px;
+    color: #238186;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 80px;
+}
+/* Individual border */
+.indborder{
+    margin: auto;
+    border-left: dotted #189 30px;
+    border-right: double #189 30px;
+    border-top: dashed #189 10px;
+    border-bottom: ridge #189 10px;
+    height: 200px;
+    width:500px;
+    color: #238186;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 80px;
+    box-sizing: border-box;
+}
+/* Borda arredondada (Border-Radius) */
+.redondada{
+    margin: auto;
+    border-radius: 30px;
+    border-left: dotted rgb(121, 11, 20) 30px;
+    border-right: double rgb(153, 17, 74) 30px;
+    border-top: dashed rgb(153, 17, 112) 10px;
+    border-bottom: ridge rgb(153, 17, 58) 10px;
+    background-color: rgba(176, 109, 189, 0.637);
+    height: 200px;
+    width:500px;
+    color: #86237e;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 80px;
+    box-sizing: border-box;
+}
+/* Margem */
+.margin{
+    margin: auto;
+}
+/* Margem individual */
+.margintop{
+    margin-top: 100px;
+}
+/* Margem Shorthand */
+.shortmargin{
+    margin: 50px 150px 60px 150px;
+}
+.margin, .margintop, .shortmargin{
+    border-radius: 30px;
+    border-left: dotted rgb(121, 11, 20) 30px;
+    border-right: double rgb(153, 17, 74) 30px;
+    border-top: dashed rgb(153, 17, 112) 10px;
+    border-bottom: ridge rgb(153, 17, 58) 10px;
+    background-color: rgba(176, 109, 189, 0.637);
+    height: 200px;
+    width:500px;
+    color: #86237e;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 80px;
+    box-sizing: border-box;
+}
+/* Box Model (margin, border, padding, height and width - border box - content box)*/
+.boxmodel{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 50px;
+    border-left: dashed #a10000 30px;
+    border-right: dotted #640000 30px;
+    border-top: ridge #a3003f 10px;
+    border-bottom: inset #b80000 10px;
+    background-color: #ee8a9a;
+    color: #86234c;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 800px;
+
+}
+/* Text alignment */
+.textalign{
+    text-align: right;
+}
+.containercenter{
+    text-align: center;
+    width: 400px;
+    border: 10px dotted #187;
+    margin: auto;
+}
+/* Text Decoration */
+.underline{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.linethrough{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.removeunderline{
+    text-decoration: none;
+}
+/* Text Transformation (Upper-case, Lower-Case*/
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+/* Espaçamento entre letras (Spacing) */
+.spacing{
+    letter-spacing: 15px;
+}
+/* Fonts */
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace, monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+/* Font-Style */
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+/* Font Weight */
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 999;
+    text-transform: uppercase;
+}
+/* Font-size */
+.pequeno{
+    font-size: 16px;
+}
+.grande{
+    font-size: 100px;
+}
+/* Display (div -> verticais (block) - spam -> horizontais (inline)) */
+.divpadrao{
+    background-color: #189;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    color:#0a3e41;
+    text-align: center;
+    box-sizing: border-box;
+    border: dotted #0a3e41 5px;
+    padding-top: 10px;
+    -webkit-text-stroke-color: #00c3ff;
+    -webkit-text-stroke-width: 2px;
+    font-size: 50px;
+}
+.divline{
+    background-color: #189;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    color:#0a3e41;
+    text-align: center;
+    box-sizing: border-box;
+    border: dotted #0a3e41 5px;
+    padding-top: 10px;
+    display: inline;
+    -webkit-text-stroke-color: #00c3ff;
+    -webkit-text-stroke-width: 2px;
+    font-size: 50px;
+}
+.spann{
+    background-color: #189;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    color:#0a3e41;
+    text-align: center;
+    box-sizing: border-box;
+    border: dotted #0a3e41 5px;
+    padding-top: 10px;
+    -webkit-text-stroke-color: #00c3ff;
+    -webkit-text-stroke-width: 2px;
+    font-size: 50px;
+}
+.spanblock{
+    background-color: #189;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    color:#0a3e41;
+    text-align: center;
+    box-sizing: border-box;
+    border: dotted #0a3e41 5px;
+    padding-top: 10px;
+    display: block;
+    -webkit-text-stroke-color: #00c3ff;
+    -webkit-text-stroke-width: 2px;
+    font-size: 50px;
+    padding-top: 80px;
+}
+/* Escondendo elementos */
+.invisible{
+    display: none;
+}
+/* Positions */
+/* 1 - static */
+.static{
+    position: static;
+    background-color: #189;
+    width: 300px;
+    height: 300px;
+    color:#0a3e41;
+}
+/* 2 - relative */
+.relative{
+    position: relative;
+    background-color: #189;
+    width: 300px;
+    height: 300px;
+    color:#0a3e41;
+    top: 400px;
+    left: 100px;
+}
+/* 3 - Absolute */
+.absolute{
+    position: absolute;
+    background-color: #189;
+    width: 300px;
+    height: 300px;
+    color:#0a3e41;
+    top: 25px;
+    right: 50px;
+    left: 80px;
+    bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-left: 110px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: fantasy;
+}
+/* Relative + Absolute */
+.relativecontainer{
+    background-color: #189;
+    width: 300px;
+    height: 300px;
+    color:#0a3e41;
+    border:solid rgb(0, 0, 0) 5px;
+    margin-top: 300px;
+    position: relative;
+    white-space: pre; 
+    border-radius: 50px;
+
+}
+
+.absolute1, .absolute2{
+    background-color: rgb(240, 27, 204);
+    width: 100px;
+    height: 100px;
+    color:#410a3e;
+    border:solid rgb(0, 0, 0) 5px;
+    position: absolute;
+    white-space: pre; 
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.absolute1{
+    left: 150px;
+}
+.absolute2{
+    top: 150px;
+    left: 40px;
+}
+.fixed{
+    background-color: rgb(240, 27, 204);
+    width: 150px;
+    height: 150px;
+    color:#410a3e;
+    border:solid rgb(0, 0, 0) 5px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 75px;
+    font-size: 30px;
+    padding-top: 50px;
+    /* fixed (e aonde ficará fixado é definido pelos parametros top, right, bottom, left) */
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+/* Sticky */
+.sticky{
+    background-color: rgb(240, 27, 204);
+    width: 150px;
+    height: 150px;
+    color:#410a3e;
+    border:solid rgb(0, 0, 0) 5px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 75px;
+    font-size: 30px;
+    padding-top: 50px;
+    /* fixed (e aonde ficará fixado é definido pelos parametros top, right, bottom, left) */
+    position: sticky;
+    top: 10px;
+}
+.papai{
+    height: 500px;
+    width: 500px;
+    background-color: #00e1ff;
+    border: dotted #0d5a5e 15px;
+    position: relative;
+    box-shadow: #011570 10px 10px 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+.fio, .fio2, .fio3{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 40px;
+    text-align: end;
+    box-sizing: border-box;
+    height: 110px;
+    width: 110px;
+    padding-right: 10px;
+    text-shadow: 1px 0 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 0 -1px 0 rgb(0, 0, 0);
+}
+.fio{
+    background-color: #527;
+    border: solid #400094 10px;
+    color:#8b55d3;
+    z-index: 15;
+}
+.fio2{
+    background-color: rgb(128, 172, 7);
+    border: solid #5b9400 10px;
+    left: 50px;
+    top: 50px;
+    color:#008b56;
+    z-index: 10;
+}
+.fio3{
+    background-color: rgb(119, 34, 94);
+    border: solid #94008d 10px;
+    left: 100px;
+    top: 100px;
+    color:#ee8a9a;
+    z-index: 5;
+}
+.headingzindex{
+    font-size: 30px;
+    position:relative;
+    margin-left: 200px;
+}

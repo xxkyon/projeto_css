@@ -1,0 +1,48 @@
+.boxmodel{
+    /* Border Box */
+    box-sizing: border-box;
+    /* Quebra de linhas automática */
+    white-space: pre; 
+    /* Margem centralizada */
+    margin: auto;
+    /* Padding, altura e largura (top 0px por conta da tag <p>) */
+    padding: 0px 90px 90px 90px;
+    height: 1700px;
+    width: 900px;
+    /* Texto centralizado dentro da caixa */
+    text-align: center;
+    /* Bordas */
+    border-top: ridge #a50000 20px;
+    border-right: dotted #850000 25px;
+    border-bottom: inset #a10000 25px;
+    border-left: dashed #c50000 20px;
+    border-radius: 50px;
+    /* Cor de fundo */
+    background-color:#53000071;
+    /* Tamanho e cor da fonte  */
+    font-size: 35px;
+    color:#e00000;
+    /* Sombra do texto */
+    -webkit-text-stroke-color: #ff3f3f;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 1px 1px 2px rgb(167, 0, 0), 0 0 1em rgb(255, 71, 71), 0 0 0.2em rgb(122, 0, 0);
+    /* Sombra da caixa */
+    box-shadow: #a50000 10px 10px 15px;
+}
+.body{
+    /* Background image no body para ficar atrás da caixa */
+    background-image: url(../img/alice\ in\ chains.jpg);
+    color: #000000;
+    background-size: cover;
+    /* Outline para finalizar as bordas da imagem */
+    outline: outset #000000 20px;
+}
+#title{
+    /* Título da letra da musica em cor e sombra diferente */
+    color:#ff0000;
+    -webkit-text-stroke-color: #ff8181;
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    /* Padding alterado por conta do tamanho das bordas na caixa (para centralizar mais) */
+    padding-left: 70px;
+}
